@@ -1,4 +1,4 @@
-🌦 WeatherGS: 3D Scene Reconstruction in Adverse Weather Conditions via Gaussian Splatting
+🌦 [ICRA 2025] WeatherGS: 3D Scene Reconstruction in Adverse Weather Conditions via Gaussian Splatting
 
 [![Project Page](https://img.shields.io/badge/Project-Page-yellow)](https://jumponthemoon.github.io/weather-gs/)
 [![arXiv Paper](https://img.shields.io/badge/arXiv-Paper-blue)](https://arxiv.org/pdf/2412.18862)
