@@ -4,9 +4,6 @@
 [![arXiv Paper](https://img.shields.io/badge/arXiv-Paper-blue)](https://arxiv.org/pdf/2412.18862)
 ![image](https://github.com/user-attachments/assets/8a23ba19-e259-4015-8cb6-d6ac8b970df2)
 
-
-# 🌧️ WeatherGS: Weather-Robust 3D Gaussian Splatting
-
 **WeatherGS** is a novel framework for 3D scene reconstruction under challenging weather conditions such as rain and snow. Built upon 3D Gaussian Splatting (3DGS), WeatherGS addresses the limitations of conventional 3DGS models when applied to scenes with dynamic, weather-induced noise.
 
 ## 🚀 Highlights
@@ -49,11 +46,14 @@ Please download through this link:
 If you use this code or find this project helpful, please cite:
 
 ```bibtex
-@article{your2025weathergs,
-  title={WeatherGS: Robust 3D Gaussian Splatting under Adverse Weather},
-  author={Your Name and Collaborators},
-  journal={arXiv preprint arXiv:2412.18862},
-  year={2025}
+@misc{weathergs_qian,
+      title={WeatherGS: 3D Scene Reconstruction in Adverse Weather Conditions via Gaussian Splatting}, 
+      author={Chenghao Qian and Yuhu Guo and Wenjing Li and Gustav Markkula},
+      year={2025},
+      eprint={2412.18862},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2412.18862}, 
 }
 ```
 
