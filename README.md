@@ -7,6 +7,7 @@
 **WeatherGS** is a novel framework for 3D scene reconstruction under challenging weather conditions such as rain and snow. Built upon 3D Gaussian Splatting (3DGS), WeatherGS addresses the limitations of conventional 3DGS models when applied to scenes with dynamic, weather-induced noise.
 
 ## 🚀 Highlights
+> ⭐ **If you like our work or find it useful, please give us a star or cite below. Thanks!**
 
 - 🌧️ **Weather-Resilient**: Effectively distinguishes and filters out transient artefacts to improve static scene reconstruction.
 - 🧠 **Mask-Guided Optimization**: Leverages learned visibility and transient masks to suppress weather-induced distortions.
