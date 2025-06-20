@@ -21,12 +21,57 @@ We recommend using Anaconda:
 
 ```bash
 git clone https://github.com/Jumponthemoon/WeatherGS.git
-cd WeatherGS
+cd WeatherGS/3DGS
 conda env create --file environment.yml
-conda activate gaussian_splatting
+conda activate weathergs
 ```
 
 Make sure your system supports PyTorch with GPU acceleration.
+
+## 📁 Datasets
+
+You can download preprocessed dataset through this link:  
+👉 **[Google Drive - WeatherGS Resource](https://drive.google.com/file/d/1S3fOnl-SEgiapFPm2s0VtUDeVYwdAnL_/view?usp=drive_link)**
+
+### 🔧 (Optional) Preprocessing Your Own Scenes
+
+To process your own weather-affected scenes, run the **AEF** and **LED** modules:
+
+#### AEF (Atmospheric Effect Filter)
+
+```bash
+cd AEF
+python infer.py --image_path /path/to/images
+```
+
+If you know the type of the scene, you can add --task for better performance:
+
+```bash
+python infer.py --image_path /path/to/images --task desnow  # or derain
+```
+
+#### LED (Learning-based Edge Detection)
+
+> ⚠ Requires TensorFlow 1.15. We recommend using a separate environment:
+
+```bash
+conda deactivate
+conda create -n led python=3.6
+conda activate led
+pip install -r requirements.txt
+```
+
+First generate coarse masks:
+```bash
+python detect_occlusion.py --image_path /path/to/processed_images/
+```
+Then refine the mask by changing threshold and dilation parameters:
+```bash
+python refine_mask.py --scene_path /path/to/scene/
+```
+The final masks will be saved in the `masks/` directory.
+
+
 
 ## 🏃‍♂️ Training
 
@@ -36,10 +81,7 @@ python train.py -s /path/to/scene --masks /path/to/scene/masks
 ```
 
 
-## 📁 Datasets
 
-Please download through this link:  
-👉 **[Google Drive - WeatherGS Resource](https://drive.google.com/file/d/1S3fOnl-SEgiapFPm2s0VtUDeVYwdAnL_/view?usp=drive_link)**
 
 
 ## 📄 Citation
