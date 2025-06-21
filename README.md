@@ -21,7 +21,6 @@ We recommend using Anaconda:
 
 ```bash
 git clone https://github.com/Jumponthemoon/WeatherGS.git
-cd WeatherGS/3DGS
 conda env create --file environment.yml
 conda activate weathergs
 ```
