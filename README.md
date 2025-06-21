@@ -22,6 +22,21 @@ Make sure your system supports PyTorch with GPU acceleration.
 git clone https://github.com/Jumponthemoon/WeatherGS.git
 cd WeatherGS
 ```
+## 📦 Installation
+
+We recommend using Anaconda:
+
+```bash
+conda env create --file environment.yml
+conda activate weathergs
+```
+
+## 🏃‍♂️ Training
+
+```bash
+cd 3DGS
+python train.py -s /path/to/scene --masks /path/to/scene/masks
+```
 
 ## 📁 Datasets
 
@@ -30,7 +45,7 @@ You can download preprocessed dataset through this link:
 
 ### 🔧 (Optional) Preprocessing Your Own Scenes
 
-To process your own weather-affected scenes, you need to build another two environments to run the **AEF** and **LED** modules:
+Due incompatibility, you should build **another two seperated environments** to run the **AEF** and **LED** modules:
 
 #### AEF (Atmospheric Effect Filter)
 
@@ -68,21 +83,6 @@ python refine_mask.py --scene_path /path/to/scene/
 ```
 The final masks will be saved in the `masks/` directory.
 
-## 📦 Installation
-
-We recommend using Anaconda:
-
-```bash
-conda env create --file environment.yml
-conda activate weathergs
-```
-
-## 🏃‍♂️ Training
-
-```bash
-cd 3DGS
-python train.py -s /path/to/scene --masks /path/to/scene/masks
-```
 
 ## 📄 Citation
 
