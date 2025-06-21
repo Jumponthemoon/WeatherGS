@@ -99,4 +99,4 @@ If you use this code or find this project helpful, please cite:
 
 ## 🤝 Acknowledgements
 
-This work builds upon [3D Gaussian Splatting](https://repo-link) and benefits from open-source contributions in 3D vision, rendering, and weather simulation.
+This work builds upon [3D Gaussian Splatting](https://repo-link), [DiffPlugin](https://github.com/yuhaoliu7456/Diff-Plugin) and [AttGAN](https://github.com/MaybeShewill-CV/attentive-gan-derainnet). We thank for their amazing works!
