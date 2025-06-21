@@ -15,17 +15,13 @@
 - ⚡ **Fast Rendering**: Preserves the real-time rendering capability of the original 3D Gaussian Splatting framework.
 
 
-## 📦 Installation
+Make sure your system supports PyTorch with GPU acceleration.
 
-We recommend using Anaconda:
-
+## 🧰 Clone Code
 ```bash
 git clone https://github.com/Jumponthemoon/WeatherGS.git
-conda env create --file environment.yml
-conda activate weathergs
+cd WeatherGS
 ```
-
-Make sure your system supports PyTorch with GPU acceleration.
 
 ## 📁 Datasets
 
@@ -72,7 +68,14 @@ python refine_mask.py --scene_path /path/to/scene/
 ```
 The final masks will be saved in the `masks/` directory.
 
+## 📦 Installation
 
+We recommend using Anaconda:
+
+```bash
+conda env create --file environment.yml
+conda activate weathergs
+```
 
 ## 🏃‍♂️ Training
 
