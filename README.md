@@ -35,12 +35,14 @@ You can download preprocessed dataset through this link:
 
 ### 🔧 (Optional) Preprocessing Your Own Scenes
 
-To process your own weather-affected scenes, run the **AEF** and **LED** modules:
+To process your own weather-affected scenes, you need to build another two environments to run the **AEF** and **LED** modules:
 
 #### AEF (Atmospheric Effect Filter)
 
 ```bash
 cd AEF
+conda env create --file environment.yml
+conda activate aef
 python infer.py --image_path /path/to/images
 ```
 
@@ -75,14 +77,10 @@ The final masks will be saved in the `masks/` directory.
 
 ## 🏃‍♂️ Training
 
-
 ```bash
+cd 3DGS
 python train.py -s /path/to/scene --masks /path/to/scene/masks
 ```
-
-
-
-
 
 ## 📄 Citation
 
