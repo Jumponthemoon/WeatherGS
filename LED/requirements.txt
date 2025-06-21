@@ -1,0 +1,8 @@
+opencv_python
+glog
+numpy
+scikit_image
+easydict
+matplotlib
+skimage
+tensorflow_gpu==1.15.0
