@@ -30,6 +30,10 @@ We recommend using Anaconda:
 conda env create --file environment.yml
 conda activate weathergs
 ```
+## 📁 Datasets
+
+You can download preprocessed dataset through this link:  
+👉 **[Google Drive - WeatherGS Resource](https://drive.google.com/file/d/1S3fOnl-SEgiapFPm2s0VtUDeVYwdAnL_/view?usp=drive_link)**
 
 ## 🏃‍♂️ Training
 
@@ -37,11 +41,6 @@ conda activate weathergs
 cd 3DGS
 python train.py -s /path/to/scene --masks /path/to/scene/masks
 ```
-
-## 📁 Datasets
-
-You can download preprocessed dataset through this link:  
-👉 **[Google Drive - WeatherGS Resource](https://drive.google.com/file/d/1S3fOnl-SEgiapFPm2s0VtUDeVYwdAnL_/view?usp=drive_link)**
 
 ### 🔧 (Optional) Preprocessing Your Own Scenes
 
