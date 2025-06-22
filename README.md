@@ -61,11 +61,12 @@ If you know the type of the scene, you can add --task for better performance:
 python infer.py --image_path /path/to/images --task desnow  # or derain
 ```
 
-#### LED (Learning-based Edge Detection)
+#### LED (Len Effect Detector)
 
 > ⚠ Requires TensorFlow 1.15. We recommend using a separate environment:
 
 ```bash
+cd LED
 conda deactivate
 conda create -n led python=3.6
 conda activate led
