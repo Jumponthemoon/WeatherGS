@@ -89,15 +89,17 @@ The final masks will be saved in the `masks/` directory.
 If you use this code or find this project helpful, please cite:
 
 ```bibtex
-@misc{weathergs_qian,
-      title={WeatherGS: 3D Scene Reconstruction in Adverse Weather Conditions via Gaussian Splatting}, 
-      author={Chenghao Qian and Yuhu Guo and Wenjing Li and Gustav Markkula},
-      year={2025},
-      eprint={2412.18862},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2412.18862}, 
-}
+@INPROCEEDINGS{11128699,
+  author={Qian, Chenghao and Guo, Yuhu and Li, Wenjing and Markkula, Gustav},
+  booktitle={2025 IEEE International Conference on Robotics and Automation (ICRA)}, 
+  title={Weathergs: 3D Scene Reconstruction in Adverse Weather Conditions Via Gaussian Splatting}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={185-191},
+  keywords={Three-dimensional displays;Precipitation;Detectors;Benchmark testing;Light emitting diodes;Cameras;Robotics and automation;Image reconstruction;Meteorology;Lenses},
+  doi={10.1109/ICRA55743.2025.11128699}}
+
 ```
 
 ## 🤝 Acknowledgements
