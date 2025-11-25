@@ -1,7 +1,9 @@
 # 🌦 [ICRA 2025] WeatherGS: 3D Scene Reconstruction in Adverse Weather Conditions via Gaussian Splatting
 
 [![Project Page](https://img.shields.io/badge/Project-Page-yellow)](https://jumponthemoon.github.io/weather-gs/)
-[![arXiv Paper](https://img.shields.io/badge/arXiv-Paper-blue)](https://arxiv.org/pdf/2412.18862)
+[![arXiv Paper](https://img.shields.io/badge/arXiv-Paper-green)](https://arxiv.org/pdf/2412.18862)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Jumponthemoon/WeatherGS)
+
 ![image](https://github.com/user-attachments/assets/8a23ba19-e259-4015-8cb6-d6ac8b970df2)
 
 **WeatherGS** is a novel framework for 3D scene reconstruction under challenging weather conditions such as rain and snow. Built upon 3D Gaussian Splatting (3DGS), WeatherGS addresses the limitations of conventional 3DGS models when applied to scenes with dynamic, weather-induced noise.
