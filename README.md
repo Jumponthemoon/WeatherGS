@@ -96,8 +96,6 @@ If you use this code or find this project helpful, please cite:
   booktitle={2025 IEEE International Conference on Robotics and Automation (ICRA)}, 
   title={Weathergs: 3D Scene Reconstruction in Adverse Weather Conditions Via Gaussian Splatting}, 
   year={2025},
-  volume={},
-  number={},
   pages={185-191},
   keywords={Three-dimensional displays;Precipitation;Detectors;Benchmark testing;Light emitting diodes;Cameras;Robotics and automation;Image reconstruction;Meteorology;Lenses},
   doi={10.1109/ICRA55743.2025.11128699}}
